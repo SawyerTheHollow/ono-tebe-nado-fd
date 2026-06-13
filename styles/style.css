@@ -36,8 +36,11 @@
   text-decoration: none;
 }
 
+/* пока не понадобилось
 .header__logo {
+
 }
+*/
 
 .header__logo-image {
   width: 148;
@@ -311,8 +314,11 @@
   text-align: center;
 }
 
+/* пока не понадобилось
 .footer__menu-link {
+
 }
+*/
 
 .footer__menu-link_active {
   text-decoration: none;
@@ -325,8 +331,11 @@
   list-style: none;
 }
 
+/* пока не понадобилось
 .footer__social-link {
+
 }
+*/
 
 .footer__social-icon {
   width: 48px;
