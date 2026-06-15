@@ -278,13 +278,14 @@
   grid-column: 2;
   grid-row: 1;
   align-self: center;
+  padding-top: 10px;
   font-weight: bold;
   font-size: 40px;
   text-transform: uppercase;
 }
 
 .about__text {
-  display: flex;
+  display: block;
   flex-direction: column;
   grid-column: 2;
   grid-row: 2;
@@ -292,6 +293,12 @@
   font-family: Raleway, sans-serif;
   font-size: 20px;
   line-height: 24px;
+}
+
+.about__text-paragraph {
+  margin-bottom: 12px;
+  padding-top: 10px;
+  padding-right: 5px;
 }
 
 .footer {
