@@ -240,6 +240,7 @@
   font-family: Raleway, sans-serif;
   font-weight: normal;
   font-size: 20px;
+  text-underline-offset: 5px;
 }
 
 .about {
@@ -304,9 +305,11 @@
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 20px;
   margin-bottom: 82px;
   padding-right: 50px;
   padding-left: 50px;
+  text-underline-offset: 5px;
 }
 
 .footer__address {
