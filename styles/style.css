@@ -50,7 +50,6 @@
   width: 135px;
   min-width: 135px;
   height: 107px;
-
 }
 
 .address {
@@ -246,6 +245,7 @@
 
 .about {
   margin-top: 155px;
+  margin-bottom: 119px;
   padding-right: 24px;
   padding-left: 24px;
 }
@@ -253,7 +253,6 @@
 .about__column {
   display: grid;
   grid-template-columns: 334px 1fr;
-  grid-template-rows: 1fr 2fr;
   column-gap: 25px;
 }
 
@@ -306,8 +305,8 @@
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin-top: 21px;
   margin-bottom: 82px;
+  padding-top: 51px;
   padding-right: 50px;
   padding-left: 50px;
   text-underline-offset: 5px;
