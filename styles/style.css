@@ -6,8 +6,8 @@
 
 .header__menu {
   align-content: center;
-  margin-top: 125px;
-  margin-bottom: 125px;
+  margin-top: 124px;
+  margin-bottom: 124px;
   font-family: Raleway, sans-serif;
   font-size: 18px;
 }
@@ -47,9 +47,10 @@
 */
 
 .header__logo-image {
-  width: 136px;
-  min-width: 136px;
-  height: 104px;
+  width: 135px;
+  min-width: 135px;
+  height: 107px;
+
 }
 
 .address {
@@ -305,7 +306,7 @@
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin-top: 20px;
+  margin-top: 21px;
   margin-bottom: 82px;
   padding-right: 50px;
   padding-left: 50px;
