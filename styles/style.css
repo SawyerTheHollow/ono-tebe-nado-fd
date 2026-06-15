@@ -14,17 +14,21 @@
 
 .header__links-list {
   display: flex;
-  justify-content: center;
+  justify-content: end;
   align-content: center;
-  gap: 13px;
+  gap: 10px;
   list-style: none;
+  padding-right: 44px;
+  padding-bottom: 4px;
+  line-height: 40px;
+  text-underline-offset: 4px;
 }
 
 /*Маркер списка меню в виде кружочка. Через list-style:circle нормально выровнять 
 отступы слева и справа от маркера не получилось, нашёл костыль*/
 .header__links-list-item::before {
   content: "\25CB";
-  padding-right: 13px;
+  padding-right: 8px;
 }
 
 /*У первого элемента списка меню не должно быть маркера по макету*/
@@ -43,9 +47,9 @@
 */
 
 .header__logo-image {
-  width: 148;
-  min-width: 148px;
-  height: 105;
+  width: 136px;
+  min-width: 136px;
+  height: 104px;
 }
 
 .address {
