@@ -2,10 +2,12 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  height: 293px;
 }
 
 .header__menu {
+  align-content: center;
+  margin-top: 125px;
+  margin-bottom: 125px;
   font-family: Raleway, sans-serif;
   font-size: 18px;
 }
